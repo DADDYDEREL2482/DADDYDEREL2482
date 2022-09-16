@@ -72,10 +72,10 @@ async def mines(ctx, round_id):
         row4 = mine16 + mine17 + mine18 + mine19 + mine20
         row5 = mine21 + mine22 + mine23 + mine24 + mine25
         info = str(random.randint(45, 90))
-        pfp = 'https://cdn.discordapp.com/emojis/814359530019356734.webp?size=60&quality=lossless'
+        pfp = 'https://cdn.discordapp.com/attachments/1012821888273240164/1020241597339799562/IMG_3735.jpg'
         em = discord.Embed(color=0x11F1D3)
         em.set_thumbnail(url=pfp)
-        em.set_footer(text="Made by Ghost")
+        em.set_footer(text="Made by DEREL")
         em.add_field(name="Mines predictor",value=row1 + "\n" + row2 + "\n" + row3 + "\n" + row4 +"\n" + row5 + "\n" + "**Accuracy**" + "\n" + info +"%")
         await ctx.reply(embed=em)
 
